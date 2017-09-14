@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2017 | 欢迎进入我的博客</title>
+  <title>Mysql扩展 | 欢迎进入我的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <meta name="keywords" content="MinHow,MinHow's Blog" />
   
-  <meta property="og:type" content="website">
-<meta property="og:title" content="欢迎进入我的博客">
-<meta property="og:url" content="http://cylcyl123.github.io/archives/2017/index.html">
+  <meta name="description" content="扩展内容： 1.Navicat使用（数据库可视化工具） 2.CMD方式对数据库操作 3.数据库移植 Mysql扩展Navicat使用CMD方式对数据库操作123456789101112                 数据库导出1、打开“开始”，输入命令cmd回车2、进入MySQL  输入 cd F:\Mysql\bin（mysql安装路径）3. 输入     mysqldump -uroot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mysql扩展">
+<meta property="og:url" content="http://cylcyl123.github.io/2017/09/14/Mysql扩展/index.html">
 <meta property="og:site_name" content="欢迎进入我的博客">
+<meta property="og:description" content="扩展内容： 1.Navicat使用（数据库可视化工具） 2.CMD方式对数据库操作 3.数据库移植 Mysql扩展Navicat使用CMD方式对数据库操作123456789101112                 数据库导出1、打开“开始”，输入命令cmd回车2、进入MySQL  输入 cd F:\Mysql\bin（mysql安装路径）3. 输入     mysqldump -uroot">
+<meta property="og:updated_time" content="2017-09-14T11:42:32.536Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="欢迎进入我的博客">
+<meta name="twitter:title" content="Mysql扩展">
+<meta name="twitter:description" content="扩展内容： 1.Navicat使用（数据库可视化工具） 2.CMD方式对数据库操作 3.数据库移植 Mysql扩展Navicat使用CMD方式对数据库操作123456789101112                 数据库导出1、打开“开始”，输入命令cmd回车2、进入MySQL  输入 cd F:\Mysql\bin（mysql安装路径）3. 输入     mysqldump -uroot">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -104,78 +108,84 @@
     </div>
 </header>
       <div class="outer">
-        <section id="main" class="body-wrap">
-  
-  
+        <section id="main" class="body-wrap"><article id="post-Mysql扩展" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2017/09/14/Mysql扩展/" class="archive-article-date">
-  <time datetime="2017-09-14T11:26:42.798Z" itemprop="datePublished">09-14</time>
-</a>
-      
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/09/14/Mysql扩展/"  >Mysql扩展</a>
+    <h1 class="post-title" itemprop="name">
+      Mysql扩展
     </h1>
+    <div class="post-title-bar">
+      <ul>
+          
+        <li>
+          <i class="fa fa-calendar"></i>  2017-09-14
+        </li>
+        <li>
+          <i class="fa fa-eye"></i>
+          <span id="busuanzi_value_page_pv"></span>
+        </li>
+      </ul>
+    </div>
   
 
-    </header>
+          
+      </header>
+    
+    <div class="article-entry post-content" itemprop="articleBody">
       
+            
+            <p> 扩展内容：<br> 1.Navicat使用（数据库可视化工具）<br> 2.CMD方式对数据库操作<br> 3.数据库移植</p>
+<h2 id="Mysql扩展"><a href="#Mysql扩展" class="headerlink" title="Mysql扩展"></a>Mysql扩展</h2><h3 id="Navicat使用"><a href="#Navicat使用" class="headerlink" title="Navicat使用"></a>Navicat使用</h3><h3 id="CMD方式对数据库操作"><a href="#CMD方式对数据库操作" class="headerlink" title="CMD方式对数据库操作"></a>CMD方式对数据库操作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">                 数据库导出</div><div class="line">1、打开“开始”，输入命令cmd回车</div><div class="line">2、进入MySQL  输入 <span class="built_in">cd</span> F:\Mysql\bin（mysql安装路径）</div><div class="line">3. 输入     mysqldump -uroot -proot   asp&gt;f:\asp.sql</div><div class="line"></div><div class="line">                数据库导入</div><div class="line">1、导出1和2步骤</div><div class="line">2、输入 mysql –uroot –proot    进入mysql</div><div class="line">3、创建数据库 输入 </div><div class="line">CREATE database nasp Character SET UTF8 COLLATE <span class="string">'utf8_general_ci'</span>;</div><div class="line">USE nasp;</div><div class="line">4.导入数据库 <span class="built_in">source</span>  “C:\baidunews.sql”（数据库文件路径</div></pre></td></tr></table></figure>
+<h3 id="数据库移植"><a href="#数据库移植" class="headerlink" title="数据库移植"></a>数据库移植</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"> 1、修改E:\Mysql目录下my.ini文件路径配置</div><div class="line">basedir=<span class="string">"F:/Mysql/"</span></div><div class="line">datadir=<span class="string">"F:/Mysql/Data/“</span></div><div class="line"><span class="string">port=3309</span></div><div class="line"><span class="string">2、安装 </span></div><div class="line"><span class="string">E:\Mysql\bin&gt;mysqld-nt install mysqltest（服务名称）</span></div><div class="line"><span class="string">3.启动mysql</span></div><div class="line"><span class="string">Net  start mysqltest （服务名称）</span></div></pre></td></tr></table></figure>
+            <div class="post-copyright">
+    <div class="content">
+        <p>最后更新： 2017年09月14日 19:42</p>
+        <p>原始链接： <a class="post-url" href="/2017/09/14/Mysql扩展/" title="Mysql扩展">http://cylcyl123.github.io/2017/09/14/Mysql扩展/</a></p>
+        <footer>
+            <a href="http://cylcyl123.github.io">
+                <img src="/images/logo.png" alt="邱振湧">
+                邱振湧
+            </a>
+        </footer>
+    </div>
+</div>
+
+      
+    </div>
+    <footer class="article-footer">
+        <ul class="article-footer-menu">
+            
+            
+        </ul>
+        
+    </footer>
   </div>
 </article>
 
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2017/09/14/第一篇文章/" class="archive-article-date">
-  <time datetime="2017-09-14T11:17:58.738Z" itemprop="datePublished">09-14</time>
-</a>
-      
-    </header>
-      
-  </div>
-</article>
 
-  
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Mysql扩展"><span class="post-toc-text">Mysql扩展</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Navicat使用"><span class="post-toc-text">Navicat使用</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#CMD方式对数据库操作"><span class="post-toc-text">CMD方式对数据库操作</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#数据库移植"><span class="post-toc-text">数据库移植</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
     
+
+<nav id="article-nav">
+  
+  
+    <a href="/2017/09/14/第一篇文章/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title"></span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
+  
+</nav>
+
+
+
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2017/09/13/hello-world/" class="archive-article-date">
-  <time datetime="2017-09-13T07:02:06.375Z" itemprop="datePublished">09-13</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/09/13/hello-world/"  >Hello World</a>
-    </h1>
-  
-
-    </header>
-      
-  </div>
-</article>
-
-  
-  
-    </div></section>
-  
-
 </section>
         
       </div>
